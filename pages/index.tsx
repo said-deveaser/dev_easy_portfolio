@@ -1,13 +1,13 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import BasicTemplate from "../src/JSX/templates/basic/BasicTemplate";
+import HeaderFooterTemplate from "../src/Elements/templates/HeaderFooter/HeaderFooterTemplate";
+import Home from "../src/Elements/Pages/Home/Home";
 
-const Home: NextPage = () => {
+const Index: NextPage = () => {
   return (
-      <BasicTemplate/>
+      <HeaderFooterTemplate>
+        <Home/>
+      </HeaderFooterTemplate>
   )
 }
 
-export default Home
+export default Index

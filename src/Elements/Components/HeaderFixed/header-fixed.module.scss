@@ -1,0 +1,12 @@
+@import 'src/styles/variables';
+.header {
+  height: $headerHeight;
+  width: 100vw;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background-color: burlywood;
+  //border: 2px solid blanchedalmond;
+}

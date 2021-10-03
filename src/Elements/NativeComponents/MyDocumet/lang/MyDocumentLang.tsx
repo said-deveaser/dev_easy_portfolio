@@ -2,7 +2,7 @@ import LanguageController, {LanguageEnum, LanguagePointers} from "../../../../ve
 
 const ru = {
     DEFAULT_PAGE_TITLE: "DevEasy | TechLead Разработчик",
-    DEFAULT_PAGE_DESC: "TechLead Frontend Разработчик расскажет Вам про нюансы разработки из жизни"
+    DEFAULT_PAGE_DESC: "TechLead Frontend Разработчик расскажет Вам про нюансы разработки из жизни",
 }
 
 const pointers:LanguagePointers<typeof ru> = {

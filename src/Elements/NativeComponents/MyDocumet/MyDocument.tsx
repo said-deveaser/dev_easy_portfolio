@@ -1,6 +1,6 @@
 import React, {FC} from "react"
 import Head from "next/head";
-import {BasicComponents} from "../BasicComponents";
+import {BasicComponents} from "../NativeComponents";
 import MyDocumentLang from "./lang/MyDocumentLang";
 
 const MyDocument: FC<BasicComponents.MyDocument> =
