@@ -1,0 +1,3 @@
+[submodule "src/vendor/Language"]
+	path = src/vendor/Language
+	url = https://github.com/said-deveaser/language_ts.git
